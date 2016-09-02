@@ -1,0 +1,81 @@
+Internet Engineering Task Force                            Santa Claus 
+INTERNET DRAFT                                        Rudolph Red Nose
+                                                        Christmas Inc. 
+                                                      November 9, 2015 
+                                                    Expires April 2016 
+ 
+ 
+ 
+                Unicast HTTP over UDP (UHTTPoUDP) 
+                  <draft-claus-udp-http-01.txt> 
+ 
+ 
+ 
+Status of this Memo 
+    
+   This document is an Internet-Draft and is in full conformance with 
+   all provisions of Section 10 of RFC2026. 
+    
+   Internet-Drafts are working documents of the Internet Engineering 
+   Task Force (IETF), its areas, and its working groups.  Note that 
+   other groups may also distribute working documents as Internet-
+   Drafts. 
+    
+   Internet-Drafts are draft documents valid for a maximum of six 
+   months and may be updated, replaced, or obsoleted by other documents 
+   at any time.  It is inappropriate to use Internet- Drafts as 
+   reference material or to cite them other than as "work in progress." 
+    
+   The list of current Internet-Drafts can be accessed at 
+   http://www.ietf.org/ietf/1id-abstracts.txt 
+    
+   The list of Internet-Draft Shadow Directories can be accessed at 
+   http://www.ietf.org/shadow.html. 
+    
+   Please send comments to the SSDP mailing list. Subscription 
+   information for the SSDP mailing list is available at 
+   http://www.upnp.org/resources/ssdpmail.htm. 
+ 
+Abstract 
+    
+   This document describes a kind-of reliable, more or less useful
+   and mostly experimental protocol for sending unicast HTTP messages
+   over UDP connections. It has proven to be absolutely useless but
+   should be a must have requirement for all major client vendors.
+
+   UHTTPoUDP is an experimental transport for the Gift Routing Protocol,
+   a proprietary gift distribution mechanism patented by Christmas Inc.
+   It allows more-or-ess transparent distribution of packets over 
+   unreliable links like flying sledges and chimneys.
+
+1.  Security Considerations 
+    
+   UHTTPoUDP relies on security mechanisms of lower layers. In
+   production environments it should be deployed on IPSEC.
+
+   In combination with the Gift Routing Protocol UHTTPoUDP will be
+   secured by a miracolous mob of elfs guarding all the packets
+   that transit insecure links.
+    
+2.  References 
+    
+   [RFC2119] S. Bradner. Key words for use in RFCs to Indicate 
+   Requirement Levels.  RFC 2119, March 1997. 
+    
+   [RFC2616] R. Fielding, J. Gettys, J. C. Mogul, H. Frystyk, L. 
+   Masinter, P. Leach and T. Berners-Lee. Hypertext Transfer Protocol - 
+   HTTP/1.1. RFC 2616, November 1998. 
+
+   [RNR] R. Red Nose, Implications of link failures for the Gift
+   Routing Protocol. An in-depth technical case study. November 2015
+    
+3.  Author's Address 
+    
+   Santa Claus
+   Christmas Inc.
+   Snowy Track 84b
+   North Pole, FC 913555127
+    
+   Email: santa@adversec.com
+    
+   This document will expire in April 2016. 
